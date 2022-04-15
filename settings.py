@@ -1,0 +1,10 @@
+train_dataset_path = './glue_tubes_keypoints_dataset_134imgs/train'
+test_dataset_path  = "./glue_tubes_keypoints_dataset_134imgs/test"
+# train_dataset_path = './coco_annotator_saved/train'
+# test_dataset_path = './coco_annotator_saved/test'
+num_epochs = 5
+keypoints_classes_ids2names = {0: 'Head', 1: 'Tail'}
+# keypoints_classes_ids2names = {0: 'outer-end-point', 1: 'inner-end-point'}
+weights_path = "./keypointsrcnn_weights.pth"
+# weights_path = "./lead_sectional_image.pth"
+score_threshold = 0.7

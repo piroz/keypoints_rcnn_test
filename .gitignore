@@ -1,0 +1,5 @@
+.venv
+nohup.out
+/coco_annotator_saved
+/*.pth
+/out

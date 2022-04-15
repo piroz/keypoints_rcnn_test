@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "==1.17.5"
+cython = "*"
+torch = "*"
+torchvision = "*"
+opencv-python = "*"
+matplotlib = "*"
+albumentations = "*"
+presets = "*"
+imageio = "==2.13.5"
+tifffile = "==2021.10.10"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
